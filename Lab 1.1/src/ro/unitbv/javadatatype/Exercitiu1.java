@@ -23,7 +23,7 @@ public class Exercitiu1 {
 		System.out.println("Diferenta: " +(nr1-nr2));
 		System.out.println("Produsul: " +(nr1*nr2));
 		System.out.println("Media: " +((nr1+nr2)/2));
-		System.out.println("Distanta " + Math.sqrt(nr1*nr1*nr2*nr2));
+		System.out.println("Distanta " + Math.sqrt(nr2-nr1));
 		System.out.println("Maxim: " + Math.max(nr1, nr2));
 		System.out.println("Minim: " + Math.min(nr1, nr2));
 		double impartire = (double)nr1/nr2;
