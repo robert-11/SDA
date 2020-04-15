@@ -37,7 +37,6 @@ public class Square implements Shape {
 		boolean ok = validateBorder.validate(borderWidth);
 		if (ok == true)
 			return borderWidth;
-
 		return 0;
 	}
 
@@ -47,18 +46,14 @@ public class Square implements Shape {
 
 		if (ok == true)
 			return fillColor;
-
 		return "0";
 	}
 
-	public void Draw() {
+	public void draw() {
 
 		String a[][] = new String[size][size];
-
 		for (int i = 0; i < size; i++)
-
 			for (int j = 0; j < size; j++)
-
 				a[i][j] = "\0";
 
 		for (int i = 0; i < size; i++)
@@ -66,13 +61,10 @@ public class Square implements Shape {
 				if (i == 0) {
 					a[0][j] = "*";
 				}
-
 				if (j == 0) {
 					a[i][0] = "*";
 				}
-
 				if (i == size - 1)
-
 				{
 					a[size - 1][j] = "*";
 				}
@@ -86,7 +78,5 @@ public class Square implements Shape {
 				System.out.print(a[i][j] + " ");
 			System.out.println();
 		}
-
 	}
-
 }

@@ -43,7 +43,7 @@ public class IfThenElse {
 			return 100;
 		} else
 
-			System.out.println("Drumul este necunoscut");
+			System.out.println("Drumul necunoscut =");
 
 		return 0;
 
@@ -69,7 +69,7 @@ public class IfThenElse {
 
 					} else {
 
-						System.out.println("Drumul este necunoscut");
+						System.out.println("Drumul necunoscut =");
 					}
 				}
 			}
@@ -92,7 +92,7 @@ public class IfThenElse {
 			System.out.println("viteza maxima in zona rezidentiala este =");
 			return 30;
 		default:
-			System.out.println("Drum necunoscut !!===");
+			System.out.println("Drum necunoscut =");
 
 		}
 

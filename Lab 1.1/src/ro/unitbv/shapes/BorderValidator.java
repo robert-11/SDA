@@ -8,7 +8,6 @@ public class BorderValidator {
 			ok = false;
 			throw new IllegalArgumentException("Valoarea grosimii marginii nu poate fi mai mica ca 0.");
 		}
-
 		return ok;
 	}
 
