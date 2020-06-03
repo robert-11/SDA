@@ -7,7 +7,7 @@ public class main {
 	public static void main(String[] args) {
 		double[] mate =  new double[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		double[] istorie = new double[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-		// Create a HashMap object called catalog
+
 		info s1 = new info("Robert", "Andrei", istorie[0], mate[9]);
 		info s2 = new info("Popescu", "Ion", istorie[1], mate[8]);
 		info s3 = new info("George", "Mihai", istorie[2], mate[7]);
@@ -21,7 +21,6 @@ public class main {
 
 		HashMap<String, info> catalog = new HashMap<String, info>();
 
-		// Add keys and values (CNP,Name)
 		catalog.put("1a", s1);
 		catalog.put("2b", s2);
 		catalog.put("3c", s3);
@@ -32,12 +31,9 @@ public class main {
 		catalog.put("8f", s8);
 		catalog.put("9z", s9);
 		catalog.put("15", s10);
-		// System.out.println(catalog);
+
 		System.out.println(catalog.get("15"));
-		// for(String getkey:catalog.keySet())
-		// {
-		// System.out.println(getkey);
-		// }
+
 		System.out.println("\n" + "LinkedHashMap!!!!!!!!!!!!!!!!!!" + "\n");
 
 		LinkedHashMap<String, info> catalog1 = new LinkedHashMap<String, info>();
@@ -51,10 +47,7 @@ public class main {
 		catalog1.put("88", s8);
 		catalog1.put("098", s9);
 		catalog1.put("abcd", s10);
-		// for(String getkeys:catalog1.keySet())
-		// {
-		// System.out.println(getkeys);
-		// }
+
 		System.out.println(catalog1.get("9z"));
 	}
 }
